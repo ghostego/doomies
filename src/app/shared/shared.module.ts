@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { HeaderComponent, FooterComponent } from '.';
 
 @NgModule({
     imports: [
@@ -8,8 +7,6 @@ import { HeaderComponent, FooterComponent } from '.';
     ],
     declarations: [],
     exports: [
-        HeaderComponent,
-        FooterComponent
     ]
 })
 
