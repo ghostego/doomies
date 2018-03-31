@@ -11,12 +11,16 @@ export class HomeComponent{
         private router: Router
     ){}
     hover = false;
-    changeImage($event: any){
+    imgSrc     =   '';
+    eventTarget;
+    changeImage($event: any, img){
+        this.imgSrc    =   img;
+        this.eventTarget    =   $event.target;
         if (!this.hover){
-            $event.target.src = '/assets/img/missing-out-on-hover.png'; 
+            this.eventTarget.src = '/assets/img/' + this.imgSrc + '-hover.png'; 
             this.hover = true;
         } else {
-            $event.target.src = '/assets/img/missing-out-on.png'; 
+            this.eventTarget.src = '/assets/img/' + img + '.png'; 
             this.hover = false;
         }
         
