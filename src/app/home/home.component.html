@@ -3,8 +3,81 @@
         <div class="center">
             <img src="/assets/img/logo-full.png" class="mx-auto d-block img-fluid" alt="">
             <a href="#">
-                <img src="/assets/img/missing-out-on.png" class="mx-auto d-block img-fluid" alt="" (mouseover)="changeImage($event)" (mouseleave)="changeImage($event)">
+                <img src="/assets/img/missing-out-on.png" class="mx-auto d-block img-fluid" alt="" (mouseover)="changeImage($event, 'missing-out-on')" (mouseleave)="changeImage($event, 'missing-out-on')">
             </a>
+        </div>
+    </div>
+</div>
+<div id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6"><img src="/assets/img/friedchicken.png" class="img-fluid" alt=""></div>
+            <div class="col-12 col-md-6 align-self-center">
+                <img src="/assets/img/friedchicken-header.png" class="img-fluid" alt="">
+                <p>Forget about Kentucky, Doomie`s has that 
+                    herbs and spices flavor without the cruelty. 
+                    Enjoy our house made faux-chicken with 
+                    coleslaw, mac and cheese and fries.
+                    <br /><br />
+                    Don’t trust the hype?
+                </p>
+                <a href="#" class="mx-auto d-block">
+                    <img src="/assets/img/friedchicken-cta.png" class="img-fluid" alt="" (mouseover)="changeImage($event, 'friedchicken-cta')" (mouseleave)="changeImage($event, 'friedchicken-cta')">
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6 align-self-center">
+                <img src="/assets/img/chilaquiles-header.png" class="img-fluid" alt="">
+                <p>We at Doomie’s believe in offering the comfort
+                        foods that you grew up with. That’s why we
+                        decided that the next restaurant we opened
+                        had to offer the food that we grew up with. And
+                        in the heart of Los Angeles, we knew we had to
+                        offer Mexican food.</p>
+                <a href="#" class="mx-auto d-block img-long">
+                    <img src="/assets/img/chilaquiles-cta.png" class="img-fluid" alt="" (mouseover)="changeImage($event, 'chilaquiles-cta')" (mouseleave)="changeImage($event, 'chilaquiles-cta')">
+                </a>
+            </div>
+            <div class="col-12 col-md-6"><img src="/assets/img/chilaquiles.png" class="img-fluid" alt=""></div>
+        </div>
+    </div>
+</div>
+<div id="whydoomies">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5"><img src="/assets/img/bigd.png" class="img-fluid" alt=""></div>
+            <div class="col-12 col-md-7 align-self-center">
+                <img src="/assets/img/whydoomies-header.png" alt="">
+                <p>
+                        Doomie’s was started as a place to get vegan
+                        food that wasn’t filled with brown rice and seasonal
+                        veggies, wrapped in whole wheat tortillas, and
+                        served on a plate of kale.<br /><br />
+                        
+                        This is vegan food that is unapologetic about how
+                        greasy it is. It isn’t healthy and was never intended 
+                        to be. Doomie’s is the place to go when your partner
+                        is vegan, and you’re not, when you’re hungover
+                        and you need a plate covered in grease and cheese,
+                        for when you need a reminder of what vegan food
+                        can be.
+                </p>
+                <a href="#"><img src="/assets/img/whydoomies-cta.png" class="img-fluid" alt="" (mouseover)="changeImage($event, 'whydoomies-cta')" (mouseleave)="changeImage($event, 'whydoomies-cta')"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="location">
+    <div class="container">
+        <div class="row">
+                <iframe
+                width="100%"
+                height="450"
+                frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBrTZCfdVfptVHWos8HHPpfX849L6LXyxQ
+                  &q=Space+Needle,Seattle+WA" allowfullscreen>
+              </iframe>
         </div>
     </div>
 </div>
