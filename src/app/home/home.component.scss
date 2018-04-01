@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height:500px;
+    height:650px;
     width:100%;
 
     .center{
@@ -104,24 +104,18 @@
         position: absolute;
         width: 100%;
     }
+    img{
+        margin-bottom:20px;
+    }
     .row{
+        position:relative;
         &:before{
             background-image: url(/assets/img/brush-bottom.png);
             background-position: center bottom;
             background-repeat: no-repeat;
             content: ' ';
             height: 30px;
-            margin-top:-10px;
-            position: absolute;
-            width: 100%;
-        }
-        &:after{
-            background-image: url(/assets/img/brush-top.png);
-            background-position: center top;
-            background-repeat: no-repeat;
-            content: ' ';
-            height: 30px;
-            margin-top:20px;
+            margin-top:65px;
             position: absolute;
             width: 100%;
         }
