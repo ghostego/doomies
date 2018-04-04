@@ -108,6 +108,25 @@
     img{
         margin-bottom:20px;
     }
+    #location-header{
+        display: block;
+        max-width:350px;
+        width:100%;
+        
+        @media screen and (min-width:768px){
+            display:inline-block;
+        }
+    }
+    #location-name{
+        display:block;
+        margin:0 auto 20px;
+        max-width:250px;
+        width:100%;
+        @media screen and (min-width:768px){
+            display:inline-block;
+            margin:0 0 20px;
+        }
+    }
     .row{
         position:relative;
         &:before{
@@ -116,9 +135,12 @@
             background-repeat: no-repeat;
             content: ' ';
             height: 30px;
-            margin-top:65px;
+            margin-top:115px;
             position: absolute;
             width: 100%;
+            @media screen and (min-width: 768px){
+                margin-top:65px;
+            }
         }
     }
 }
