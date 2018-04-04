@@ -8,4 +8,16 @@ import { Component } from '@angular/core';
 
 export class HeaderComponent{
     constructor(){}
+    collapse    =   false;
+    
+
+    navExpand(){
+        if (!this.collapse){
+            this.collapse   =   true;
+    
+        } else {
+            this.collapse   =   false;
+            
+        }
+    }
 }

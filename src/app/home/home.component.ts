@@ -14,14 +14,17 @@ export class HomeComponent{
     imgSrc     =   '';
     eventTarget;
     changeImage($event: any, img){
-        this.imgSrc    =   img;
+        this.imgSrc         =   img;
         this.eventTarget    =   $event.target;
+
         if (!this.hover){
             this.eventTarget.src = '/assets/img/' + this.imgSrc + '-hover.png'; 
             this.hover = true;
+            
         } else {
             this.eventTarget.src = '/assets/img/' + img + '.png'; 
             this.hover = false;
+            
         }
         
     }
