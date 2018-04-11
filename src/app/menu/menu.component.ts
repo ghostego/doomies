@@ -22,15 +22,11 @@ export class MenuComponent implements OnInit{
     return(cata: String){
         var category    =   cata,
             menuCata    =   [];
-        console.log(cata);
         this.menu.forEach(function(element: Element){
             if (element['type'] === category){
                 menuCata.push(element);
             }
         });
         return menuCata;
-    }
-    access(){
-        console.log(this.menu.length);
     }
 }
