@@ -1,0 +1,76 @@
+<div class="col-12 col-md-8 offset-md-4">
+<div class="container">
+    <div class="menu-container" id="burger-container">
+        <img src="assets/img/menu-burger.png" alt="" class="img-fluid mx-auto d-block menu-header">
+
+        <div class="d-flex flex-row flex-wrap">
+            <div class="col-6 col-md-4" *ngFor="let item of return('Burgers')">
+                <a href="">
+                <img src="{{item.img}}" class="img-fluid" alt="">
+                <p>{{item.name}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container" id="sandwich-container">
+        <img src="assets/img/menu-sandwiches.png" alt="" class="img-fluid mx-auto d-block menu-header">
+
+        <div class="d-flex flex-row flex-wrap">
+            <div class="col-6 col-md-4" *ngFor="let item of return('Sandwiches')">
+                <a href="">
+                <img src="{{item.img}}" class="img-fluid" alt="">
+                <p>{{item.name}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container" id="entree-container">
+        <img src="assets/img/menu-entrees.png" alt="" class="img-fluid mx-auto d-block menu-header">
+
+        <div class="d-flex flex-row flex-wrap">
+            <div class="col-6 col-md-4" *ngFor="let item of return('Entrees')">
+                <a href="">
+                <img src="{{item.img}}" class="img-fluid" alt="">
+                <p>{{item.name}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container" id="mexican-container">
+        <img src="assets/img/menu-mexican.png" alt="" class="img-fluid mx-auto d-block menu-header">
+
+        <div class="d-flex flex-row flex-wrap">
+            <div class="col-6 col-md-4" *ngFor="let item of return('Mexican')">
+                <a href="">
+                <img src="{{item.img}}" class="img-fluid" alt="">
+                <p>{{item.name}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container" id="goodtimegrub-container">
+        <img src="assets/img/menu-goodtimegrub.png" alt="" class="img-fluid mx-auto d-block menu-header">
+
+        <div class="d-flex flex-row flex-wrap">
+            <div class="col-6 col-md-4" *ngFor="let item of return('Good Time Grub')">
+                <a href="">
+                <img src="{{item.img}}" class="img-fluid" alt="">
+                <p>{{item.name}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="menu-container" id="funtimefries-container">
+        <img src="assets/img/menu-funtimefries.png" alt="" class="img-fluid mx-auto d-block menu-header">
+
+        <div class="d-flex flex-row flex-wrap">
+            <div class="col-6 col-md-4" *ngFor="let item of return('Fun Time Fries')">
+                <a href="">
+                <img src="{{item.img}}" class="img-fluid" alt="">
+                <p>{{item.name}}</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

@@ -1,0 +1,20 @@
+.container{
+    padding-top:120px;
+
+    .menu-container{
+    padding-bottom:20px;
+    text-align: center;
+    
+    @media screen and (min-width:768px){
+        padding-bottom:40px;
+    }
+
+        .menu-header{
+            margin-bottom:20px;
+
+            @media screen and (min-width:768px){
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

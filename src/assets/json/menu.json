@@ -1,0 +1,276 @@
+[{
+			"name"          :   "Fried Avocado",
+			"description"   :   "A whole avocado, sliced, hand-battered & served with ranch",
+            "cost"          :   "9",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Jalapeno Poppers",
+			"description"   :   "6 scratch-made cheese-filled breaded jalapeno monsters served with ranch",
+            "cost"          :   "10",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Buffalo Legs",
+			"description"   :   "4 spicy drumsticks with ranch on the side",
+            "cost"          :   "9",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Chicken Fingers",
+			"description"   :   "6 fingers (not really fingers, not really chicken either) Ranch & BBQ for dipping",
+            "cost"          :   "9.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Fried Shrimp",
+			"description"   :   "6 butterflied and breaded, tartar & cocktail sauce on the side",
+            "cost"          :   "10",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Nachos Nachos Nachos",
+			"description"   :   "House fried chips, asada, beans, queso, crema, jalapeno, olive, tomato, onion, love",
+            "cost"          :   "12.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Mac `n Cheese Bowl",
+			"description"   :   "Our in house cheese, topped with crushed Ritz",
+            "cost"          :   "9.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Chicken Pesto Bowl",
+			"description"   :   "Macaroni coated in pesto cream, grilled chicken, chopped tomato",
+            "cost"          :   "12",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Good Time Grub"
+		},
+		{
+			"name"          :   "Chili Cheese Fries",
+			"description"   :   "Our chili & cheese, both made from scratch",
+            "cost"          :   "7.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "Bacon Cheese Fries",
+			"description"   :   "House-made bacon and cheese",
+            "cost"          :   "7.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "Buffalo Fries",
+			"description"   :   "Tossed in spicy buffalo sauce & topped with ranch",
+            "cost"          :   "7.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "Animal Fries",
+			"description"   :   "1000, cheese & grilled onions",
+            "cost"          :   "7.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+        }
+        ,
+		{
+			"name"          :   "Garlic Fries",
+			"description"   :   "Garlic, garlic, and more garlic",
+            "cost"          :   "7.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "Pesto Fries",
+			"description"   :   "Tossed with our homade basil pesto cream",
+            "cost"          :   "7.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "XTRA FUN Nacho Fries",
+			"description"   :   "Nacho fixins & asada",
+            "cost"          :   "10",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "Zero Fun Plain Ol' Fries",
+			"description"   :   "Just the fries",
+            "cost"          :   "6",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+        }
+        ,
+		{
+			"name"          :   "Zero Fun Plain Ol' Fries",
+			"description"   :   "Just the fries",
+            "cost"          :   "6",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Fun Time Fries"
+		},
+		{
+			"name"          :   "Classic Cheeseburger",
+			"description"   :   "Blah blah blah",
+            "cost"          :   "12",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Burgers"
+		},
+		{
+			"name"          :   "Bacon Cheeseburger",
+			"description"   :   "Blah blah bacon!",
+            "cost"          :   "13",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Burgers"
+		},
+		{
+			"name"          :   "Chili Cheeseburger",
+			"description"   :   "Meaty chili sauce, a SoCal tradition",
+            "cost"          :   "13",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Burgers"
+		},
+		{
+			"name"          :   "Peanut Butter & Bacon",
+			"description"   :   "Unsure? Trust, it's life changing!",
+            "cost"          :   "13.5",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Burgers"
+		},
+		{
+			"name"          :   "Western",
+			"description"   :   "With onion rings, bacon, bbq sauce",
+            "cost"          :   "13.75",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Burgers"
+		},
+		{
+			"name"          :   "Memphis Burger",
+			"description"   :   "With bbq pork & onion rings",
+            "cost"          :   "14.5",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Burgers"
+		},
+		{
+			"name"          :   "Philly Cheesesteak",
+			"description"   :   "Grilled peppers, onions & 'whiz'",
+            "cost"          :   "13.5",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "Mac Melt",
+			"description"   :   "A patty melt stuffed with mac 'n cheese",
+            "cost"          :   "14",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "BBQ Pulled Pork",
+			"description"   :   "Good enough to fool the in-laws",
+            "cost"          :   "12.5",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "Spicy or Crispy Chicken",
+			"description"   :   "First time? Your journey begins here.",
+            "cost"          :   "12.5",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "Buffalo Chicken Sub",
+			"description"   :   "Spicy buffalo meets cool ranch",
+            "cost"          :   "13",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "Chicken Parm Sub",
+			"description"   :   "Breaded chicken with marinara & cheese",
+            "cost"          :   "13.5",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "Shrimp Po Boy",
+			"description"   :   "With tomato, lettuce, pickle, tartar on a sub roll",
+            "cost"          :   "13",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "BLAT",
+			"description"   :   "Bacon, lettuce, avocado & tomato on sourdough",
+            "cost"          :   "13",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Sandwiches"
+		},
+		{
+			"name"          :   "Asada Tacos",
+			"description"   :   "3 Beefy tacos with a side of beans",
+            "cost"          :   "10.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Mexican"
+		},
+		{
+			"name"          :   "Asada Burrito",
+			"description"   :   "The works. With chips for clean up.",
+            "cost"          :   "11",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Mexican"
+		},
+		{
+			"name"          :   "Chimichanga",
+			"description"   :   "That abovde burrito, deep-fried",
+            "cost"          :   "12",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Mexican"
+		},
+		{
+			"name"          :   "Nachos Nachos Nachos",
+			"description"   :   "Same as before, didn't want you to forget",
+            "cost"          :   "12.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Mexican"
+        },
+		{
+			"name"          :   "Fried Chicken Basket",
+			"description"   :   "2 Pieces served with mac 'n cheese & fries",
+            "cost"          :   "14",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Entrees"
+		},
+		{
+			"name"          :   "Big Ol Chop Salad",
+			"description"   :   "With bacon, croutons, ranch & cheese sauce",
+            "cost"          :   "11.50",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Entrees"
+		},
+		{
+			"name"          :   "Tostada Bowl Salad",
+			"description"   :   "Should have included this with the mexican dishes, oops",
+            "cost"          :   "14",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Entrees"
+		},
+		{
+			"name"          :   "House Salad",
+			"description"   :   "Choice of 1000, ranch, italian",
+            "cost"          :   "14",
+            "img"           :   "assets/img/bigmacwithfries.png",
+			"type"          :   "Entrees"
+		}
+	]
