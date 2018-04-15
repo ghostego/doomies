@@ -19,8 +19,9 @@ const menuRouting: ModuleWithProviders = RouterModule.forChild([
         SharedModule
     ],
     declarations: [
-        MenuComponent
-    ], providers: []
+        MenuComponent,
+    ], 
+    providers: []
 })
 
 export class MenuModule{}
