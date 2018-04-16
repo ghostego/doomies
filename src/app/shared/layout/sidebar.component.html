@@ -1,3 +1,13 @@
-<div>
+<div *ngIf="menuPage">
     Hey
+</div>
+<div *ngIf="!menuPage" id="menuSideBar">
+    <ul>
+        <li><a href="#burger-container">Burgers</a></li>
+        <li><a href="#sandwich-container">Sandwiches</a></li>
+        <li><a href="#entree-container">Entrees</a></li>
+        <li><a href="#mexican-container">Mexican</a></li>
+        <li><a href="#goodtimegrub-container">Good Time Grub</a></li>
+        <li><a href="#funtimefries-container">Fun Time Fries</a></li>
+    </ul>
 </div>

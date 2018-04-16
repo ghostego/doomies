@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { MenuService } from './menu.service';
 
 @Component({
-    selector: 'menu-page',
-    templateUrl: './menu.component.html',
-    styleUrls: ['./menu.component.scss']
+    selector: 'menu-item',
+    templateUrl: './menu-item.component.html'
 })
-export class MenuComponent implements OnInit{
+export class MenuItemComponent implements OnInit{
     menu = [];
     public menuPage: Boolean = true;
     i: Number;
