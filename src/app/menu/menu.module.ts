@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 
 import { MenuComponent } from './menu.component';
+import { MenuFullComponent } from './menu-full.component';
 import { MenuItemComponent } from './menu-item.component';
 import { SharedModule } from '../shared';
 
@@ -12,11 +13,15 @@ const menuRouting: ModuleWithProviders = RouterModule.forChild([
         component: MenuComponent,
         children: [
             {
-                path: ':menuID',
+                path: '',
+                component: MenuFullComponent
+            },
+            {
+                path: ':slug',
                 component: MenuItemComponent,
             }
         ]
-    },
+    }
 ])
 
 
@@ -28,6 +33,7 @@ const menuRouting: ModuleWithProviders = RouterModule.forChild([
     ],
     declarations: [
         MenuComponent,
+        MenuFullComponent,
         MenuItemComponent
     ], 
     providers: []

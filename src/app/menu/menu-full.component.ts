@@ -4,11 +4,11 @@ import { MenuService } from './menu.service';
 
 @Component({
     selector: 'menu-page',
-    templateUrl: './menu.component.html',
+    templateUrl: './menu-full.component.html',
     styleUrls: ['./menu.component.scss']
 })
 
-export class MenuComponent implements OnInit{
+export class MenuFullComponent implements OnInit{
     private route: ActivatedRoute;
     public menuPage: Boolean = true;
     menu = [];

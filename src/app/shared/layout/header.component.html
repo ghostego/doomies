@@ -1,18 +1,30 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container d-flex">
         <div class="col-6 col-sm-4 col-lg-2">
-            <img src="/assets/img/logo.png" alt="logo" class="img-fluid">
+            <a [routerLink]="['']">
+                <img src="/assets/img/logo.png" alt="logo" class="img-fluid">
+            </a>
         </div>
         <div class="col-6 d-lg-none">
             <button class="float-right" type="button" (click)="navExpand()"><i class="fa fa-navicon"></i> </button>
         </div>
         <div class="collapse navbar-collapse col-12 col-lg-10" id="nav-expand" [class.show]="collapse">
             <ul>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Location</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">Order Now</a></li>
+                <li><a routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                    [routerLink]="['/menu']">Menu</a></li>
+                <li><a routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                    [routerLink]="['/location']">Location</a></li>
+                <li><a routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                    [routerLink]="['/about']">About</a></li>
+                <li><a routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                    [routerLink]="['/news']">News</a></li>
+                <li><a routerLinkActive="active"
+                    [routerLinkActiveOptions]="{ exact: true }"
+                    [routerLink]="['/order-now']">Order Now</a></li>
             </ul>
         </div>
     </div>

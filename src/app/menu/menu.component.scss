@@ -1,9 +1,46 @@
 .container{
     padding-top: 120px;
     
+    .item-container{
+        padding-bottom:40px;
+
+        .btn-order{
+            background-image: url(assets/img/btn-order.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 0;
+            height:29px;
+            width:200px;
+
+            &:hover{
+                background-image: url(assets/img/btn-order-hover.png);
+                cursor: pointer;
+            }
+        }
+
+        .back{
+            margin-top:10px;
+
+            & small{
+                color: #f55;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+    
     .menu-container{
     padding-bottom:20px;
     text-align: center;
+
+    .menu-item{
+        & img:hover, p:hover{
+            cursor: pointer;
+        }
+
+    }
     
     @media screen and (min-width:768px){
         padding-bottom:40px;

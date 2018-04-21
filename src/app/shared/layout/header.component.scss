@@ -59,6 +59,9 @@ nav{
                 font-family: 'Century Gothic', sans-serif;
                 font-size:14px;
                 
+                &.active{
+                    color: red;
+                }
             }
         }
     }
